@@ -1,9 +1,6 @@
-package sample;
+package io.github.dmi3coder.javafx_design_patterns.abstract_factory;
 
 import javafx.scene.control.Button;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundFill;
-import javafx.scene.paint.Paint;
 
 /**
  * Created by dim3coder on 10/11/17.

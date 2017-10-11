@@ -1,4 +1,4 @@
-package sample;
+package io.github.dmi3coder.javafx_design_patterns.abstract_factory;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
