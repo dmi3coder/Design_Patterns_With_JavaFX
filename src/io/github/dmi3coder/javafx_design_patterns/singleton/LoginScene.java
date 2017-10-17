@@ -17,6 +17,7 @@ public class LoginScene extends Scene {
     super(root);
     button = (Button) root.lookup("#button");
     textField = (TextField) root.lookup("#field");
+    textField.setText(UserSingleton.getInstance().getUser());
     button.setOnAction(event -> {
       String name = textField.getText();
       UserSingleton.getInstance().setUser(name);
