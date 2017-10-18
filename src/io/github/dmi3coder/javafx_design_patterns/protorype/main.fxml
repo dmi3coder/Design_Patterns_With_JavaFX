@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity"
+  minHeight="-Infinity"
+  minWidth="-Infinity" prefHeight="400.0" prefWidth="440.0"
+  xmlns="http://javafx.com/javafx/9">
+  <children>
+    <ListView editable="true" prefHeight="400.0" prefWidth="287.0" fx:id="list"/>
+    <Button layoutX="294.0" layoutY="14.0" mnemonicParsing="false" text="Load" fx:id="load_button"/>
+    <Button layoutX="294.0" layoutY="60.0" mnemonicParsing="false" text="Clear"
+      fx:id="clear_button"/>
+    <CheckBox layoutX="294.0" layoutY="90" text="Disable prototyping" fx:id="prototype_checkbox"/>
+    <Label layoutY="360.0" fx:id="time"/>
+  </children>
+</Pane>
