@@ -4,13 +4,15 @@ public class Stuff {
   private String name;
   private String surname;
   private Department department;
+  private String image;
 
 
   public Stuff(String name, String surname,
-      Department department) {
+      Department department, String image) {
     this.name = name;
     this.surname = surname;
     this.department = department;
+    this.image = image;
   }
 
   public String getName() {
@@ -36,5 +38,13 @@ public class Stuff {
   public void setDepartment(
       Department department) {
     this.department = department;
+  }
+
+  public String getImage() {
+    return image;
+  }
+
+  public void setImage(String image) {
+    this.image = image;
   }
 }

@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class StuffCell extends ListCell<Stuff> {
@@ -29,10 +30,12 @@ public class StuffCell extends ListCell<Stuff> {
     super.updateItem(item, empty);
     setText(null);
     setGraphic(null);
+    if(empty)return;
     try {
       FXMLLoader loader = new FXMLLoader(getClass().getResource("stuff_item.fxml"));
       loader.setController(this);
       Node root = loader.load();
+      image.setImage(new Image(item.getImage()));
       setGraphic(root);
     } catch (IOException e) {
       e.printStackTrace();

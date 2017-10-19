@@ -8,8 +8,6 @@ public class StuffAdapter implements ListAdapter {
 
   @Override
   public Callback getListFactory() {
-    return (param) -> new ListCell<Stuff>(){
-
-    };
+    return (param) -> new StuffCell();
   }
 }

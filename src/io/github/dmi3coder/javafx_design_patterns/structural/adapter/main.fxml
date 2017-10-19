@@ -7,8 +7,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ListView fx:id="list" layoutX="14.0" layoutY="13.0" prefHeight="375.0" prefWidth="258.0" />
-      <Label layoutX="300.0" layoutY="14.0" text="Display:" />
-      <ComboBox fx:id="spinner" layoutX="300.0" layoutY="30.0" prefWidth="150.0" />
+      <ListView fx:id="list" layoutX="14.0" layoutY="13.0" prefHeight="375.0" prefWidth="338.0" />
+      <Label layoutX="358.0" layoutY="14.0" text="Display:" />
+      <ComboBox fx:id="spinner" layoutX="358.0" layoutY="30.0" prefWidth="150.0" />
    </children>
 </AnchorPane>
