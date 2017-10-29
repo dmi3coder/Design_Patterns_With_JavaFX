@@ -12,15 +12,10 @@ public abstract class AbstractLogger {
   protected int level;
 
   protected AbstractLogger nextLogger;
-  private AbstractLogger abstractLogger;
 
   public AbstractLogger(
       AbstractLogger nextLogger) {
     this.nextLogger = nextLogger;
-  }
-
-  public void setNextLogger(AbstractLogger abstractLogger) {
-    this.abstractLogger = abstractLogger;
   }
 
   public void logMessage(int level, String message) {
