@@ -1,4 +1,4 @@
-package io.github.dmi3coder.javafx_design_patterns.builder;
+package io.github.dmi3coder.javafx_design_patterns.creational.builder;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

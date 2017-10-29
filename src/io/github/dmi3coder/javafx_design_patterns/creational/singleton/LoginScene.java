@@ -1,4 +1,4 @@
-package io.github.dmi3coder.javafx_design_patterns.singleton;
+package io.github.dmi3coder.javafx_design_patterns.creational.singleton;
 
 import java.io.IOException;
 import javafx.fxml.FXMLLoader;

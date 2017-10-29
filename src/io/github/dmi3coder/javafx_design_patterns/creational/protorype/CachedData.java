@@ -1,4 +1,4 @@
-package io.github.dmi3coder.javafx_design_patterns.protorype;
+package io.github.dmi3coder.javafx_design_patterns.creational.protorype;
 
 import java.util.List;
 import java.util.stream.Collectors;

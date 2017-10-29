@@ -1,5 +1,5 @@
 <?import javafx.scene.layout.GridPane?>
-<GridPane fx:controller="io.github.dmi3coder.javafx_design_patterns.abstract_factory.Controller"
+<GridPane fx:controller="io.github.dmi3coder.javafx_design_patterns.creational.abstract_factory.Controller"
           fx:id="main"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
 </GridPane>

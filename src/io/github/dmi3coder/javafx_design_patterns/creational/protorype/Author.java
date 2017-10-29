@@ -1,4 +1,4 @@
-package io.github.dmi3coder.javafx_design_patterns.protorype;
+package io.github.dmi3coder.javafx_design_patterns.creational.protorype;
 
 /**
  * Created by dim3coder on 10/13/17.

@@ -1,4 +1,4 @@
-package io.github.dmi3coder.javafx_design_patterns.builder;
+package io.github.dmi3coder.javafx_design_patterns.creational.builder;
 
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
